@@ -78,6 +78,19 @@ present, the check is skipped until the first push to `main` writes one.
 <!-- GAS_BASELINE_START -->
 | Entrypoint | CPU instructions | Memory bytes | Max regression |
 |---|---:|---:|---:|
+| `payraider::add_submitter` | 151006 | 60076 | 10% |
+| `payraider::bump_ttl` | 367137 | 358118 | 10% |
+| `payraider::get_snapshot` | 422968 | 357473 | 10% |
+| `payraider::grant_role` | 160385 | 73841 | 10% |
+| `payraider::initialize` | 91540 | 38193 | 10% |
+| `payraider::latest_snapshot` | 443720 | 359356 | 10% |
+| `payraider::pause` | 167694 | 70864 | 10% |
+| `payraider::remove_submitter` | 153088 | 60590 | 10% |
+| `payraider::revoke_role` | 150692 | 66166 | 10% |
+| `payraider::rotate_submitter` | 194165 | 80021 | 10% |
+| `payraider::set_admin` | 276536 | 115477 | 10% |
+| `payraider::submit_snapshot` | 763697 | 482634 | 10% |
+| `payraider::unpause` | 167287 | 71136 | 10% |
 <!-- GAS_BASELINE_END -->
 
 ## Regression policy
